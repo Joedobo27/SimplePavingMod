@@ -16,5 +16,6 @@ public class SimplePavingMod implements WurmServerMod, ServerStartedListener, In
     @Override
     public void onServerStarted() {
         ModActions.registerAction(new PaveAction());
+        ModActions.registerAction(new PaveCornerAction());
     }
 }
