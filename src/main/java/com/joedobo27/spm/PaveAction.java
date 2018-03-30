@@ -243,6 +243,11 @@ public class PaveAction extends ActionMaster {
     }
 
     @Override
+    public Item getTargetItem() {
+        return null;
+    }
+
+    @Override
     public TilePos getTargetTile() {
         return targetTile;
     }

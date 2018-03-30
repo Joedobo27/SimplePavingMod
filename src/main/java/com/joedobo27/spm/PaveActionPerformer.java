@@ -233,8 +233,7 @@ public class PaveActionPerformer implements ModAction, BehaviourProvider, Action
 
     }
 
-    static PaveActionPerformer getPaveActionPerformer()
-    {
+    static PaveActionPerformer getPaveActionPerformer() {
         return SingletonHelper._performer;
     }
 }
