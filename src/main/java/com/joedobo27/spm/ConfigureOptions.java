@@ -97,7 +97,7 @@ class ConfigureOptions {
 
     private static Properties getProperties() {
         try {
-            File configureFile = new File("mods/MightyMattockMod.properties");
+            File configureFile = new File("mods/SimplePavingMod.properties");
             FileInputStream configureStream = new FileInputStream(configureFile);
             Properties configureProperties = new Properties();
             configureProperties.load(configureStream);
