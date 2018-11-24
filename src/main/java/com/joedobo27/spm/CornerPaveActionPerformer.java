@@ -24,7 +24,7 @@ public class CornerPaveActionPerformer implements ModAction, ActionPerformer {
     private final short actionId;
     private final ActionEntry actionEntry;
 
-    CornerPaveActionPerformer(short actionId, ActionEntry actionEntry){
+    private CornerPaveActionPerformer(short actionId, ActionEntry actionEntry){
         this.actionId = actionId;
         this.actionEntry = actionEntry;
     }

@@ -28,7 +28,7 @@ public class PaveActionPerformer implements ModAction, BehaviourProvider, Action
     private final short actionId;
     private final ActionEntry actionEntry;
 
-    PaveActionPerformer(short actionId, ActionEntry actionEntry){
+    private PaveActionPerformer(short actionId, ActionEntry actionEntry){
         this.actionId = actionId;
         this.actionEntry = actionEntry;
     }
